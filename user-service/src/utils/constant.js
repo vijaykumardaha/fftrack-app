@@ -36,7 +36,8 @@ module.exports.SWAGGER_OPTION = {
       },
       servers: [
         {
-          url: `http://${HOST}:${PORT}`,
+          // url: `http://${HOST}:${PORT}`,
+          url: `http://localhost.com/user/`,
         },
       ],
     },
